@@ -1,5 +1,5 @@
 New-Item index.html
-"<!DOCTYPE html>
+Set-Content index.html "<!DOCTYPE html>
 <html lang=`"en`">
 <head>
     <meta charset=`"UTF-8`">
@@ -12,6 +12,6 @@ New-Item index.html
 <body>
     
 </body>
-</html>" | Out-File -FilePath index.html
+</html>"
 New-Item style.css
 New-Item app.js
